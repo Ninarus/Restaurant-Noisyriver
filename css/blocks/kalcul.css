@@ -1,0 +1,12 @@
+
+.kalc {
+    background-color: #E0FFFF;
+    font-family: sans-serif;
+    font-size: 25px;
+    column-count: 3;
+    padding: inherit;
+}
+.checkbox {
+   width: 25px;
+    height: 25px;
+}

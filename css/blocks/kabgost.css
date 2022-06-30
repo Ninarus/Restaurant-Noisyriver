@@ -1,0 +1,41 @@
+
+.profile-g {
+    background-color: black;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+a {
+    color: darkslateblue;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+h2 {
+     color: white;;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sale {
+ background-color: white;
+    height: 220px;
+     width: 500px;
+    margin: 0 auto;
+}
+.sale-gif {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    height: 200px;
+    width: 400px;
+}

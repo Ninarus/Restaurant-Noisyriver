@@ -1,0 +1,85 @@
+.footer {
+    position: relative;
+	padding: 104px 0 144px;
+	background-color: black;
+	color: #fff;
+}
+
+.footer-nav {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+.footer-nav li + li {
+	margin-top: 60px;
+}
+
+.footer-nav a {
+	transition: opacity 0.2s ease;
+}
+
+.footer-nav a:hover {
+	opacity: 0.8;
+}
+
+.column-left { 
+    float: left; 
+    width: 50%; 
+    text-align: center;
+}
+.column-right { 
+    float: right; 
+    width: 50%; 
+    text-align: center;
+}
+
+@media (max-width: 1399px) {
+	.footer {
+		padding: 50px 0 100px;
+	}
+	.footer-nav {
+		font-size: 20px;
+	}
+	.footer-nav li + li {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 500px) {
+	.footer {
+		padding: 40px 0 60px;
+	}
+	.footer-nav {
+		font-size: 30px;
+	}
+	.footer-nav li + li {
+		margin-top: 30px;
+	}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+     border-radius: 50%;
+}
+.fa-site {
+     position: relative;
+     text-align: center;
+}
+
+.fa-vk{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-telegram {
+  background: #55ACEE;
+  color: white;
+}

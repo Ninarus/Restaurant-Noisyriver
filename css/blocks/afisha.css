@@ -1,0 +1,81 @@
+.frame {
+  background-color: black;
+    white-space: normal;
+        min-height: 30px;
+        padding: 10px 10px 10px;
+        position: relative;
+        display: inline-block;
+	    width: 47%;
+        border: 5px solid white;
+
+}
+.afisha {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 450px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    background-color: black;
+    font-family: 'Georgia', serif;
+    color: white;
+    font-size: 30px;
+}
+
+.details {
+    font-family: 'Georgia', serif;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    padding: 20px 100px 20px;
+}
+
+.afisha-case {
+    background-color: black;
+    white-space: normal;
+        min-height: auto;
+        padding: 20px;
+        position: relative;
+        display: inline-block;
+	    width: 48%;
+        vertical-align: top;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 70px 20px;
+}
+h2.title-afisha {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px; /* Размер шрифта */
+    color: darkgray; /* Цвет заголовка */
+    text-align: center; /* Текст по центру */
+}
+/*  CSS код для линии над заголовком */
+h2.title-afisha:before {
+    content: '';
+    display: block;
+    height: 2px; /* Высота линии */
+    background: #0E3B4B; /* Цвет линии */
+    width: 170px; /* Ширина линии до наведения */
+    margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+h2.title-afisha:hover:before {
+    width: 270px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+h2.title-afisha:after {
+    content: '';
+    display: block;
+    height: 2px; /* Высота линии */
+    background: #0E3B4B; /* Цвет линии */
+    width: 170px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+h2.title-afisha:hover:after {
+    width: 270px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}

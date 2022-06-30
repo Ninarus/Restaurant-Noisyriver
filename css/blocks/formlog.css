@@ -1,0 +1,30 @@
+
+.formochka2 {
+ 
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+  margin-right: auto;
+  margin-left: auto;
+  width: 28%;
+  height: 200px;
+    font-size: 15px;
+}
+
+.str {
+  width: 70%;
+}
+
+.str2 {
+    min-height: 100px;
+    background-color: #0E3B4B;
+    min-width: 300px;
+    text-align: center;
+    font-family: 'Georgia';
+    color: white;
+    font-size: 21px;
+    border-radius: 10px;
+    
+}
+.str2 a:hover {
+	color: 	#F5DEB3;
+}

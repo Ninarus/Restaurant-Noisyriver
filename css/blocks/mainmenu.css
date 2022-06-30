@@ -1,0 +1,76 @@
+.frame {
+  background-color: black;
+    white-space: normal;
+        min-height: 30px;
+        padding: 10px 10px 10px;
+        position: relative;
+        display: inline-block;
+	    width: 47%;
+        border: 5px solid white;
+}
+.mainmenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 450px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    background-color: black;
+    font-family: 'Georgia', serif;
+    color: white;
+    font-size: 30px;
+}
+h2.title-example{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px; /* Размер шрифта */
+    color: darkgray; /* Цвет заголовка */
+    text-align: center; /* Текст по центру */
+}
+.case {
+    background-color: black;
+    white-space: normal;
+        min-height: auto;
+        padding: 20px;
+        position: relative;
+        display: inline-block;
+	    width: 48%;
+        vertical-align: top;
+    font-size: 20px;
+    text-align: left;
+}
+h4.sostav {
+  font-size: 15px;  
+color: darkgray;
+}
+
+/*  CSS код для линии над заголовком */
+h2.title-example:before {
+    content: '';
+    display: block;
+    height: 2px; /* Высота линии */
+    background: #0E3B4B; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+h2.title-example:hover:before {
+    width: 250px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+h2.title-example:after {
+    content: '';
+    display: block;
+    height: 2px; /* Высота линии */
+    background: #0E3B4B; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+h2.title-example:hover:after {
+    width: 250px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+     

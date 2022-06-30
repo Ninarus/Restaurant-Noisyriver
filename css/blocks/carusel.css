@@ -1,0 +1,72 @@
+.caru{
+    background-color: black;
+}
+.carusel {
+    height: 260px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.carusel-track {
+    display: flex;
+    width: calc(300px * 18);
+    animation: scroll 45s linear infinite;
+}
+
+.carusel-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.carusel1 {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    perspective: 100px;
+}
+
+img {
+    width: 100%;
+    transform: transform 1s;
+}
+img:hover{
+    transform: translateZ(20px);
+}
+
+.carusel1::before,
+.carusel1::after {
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.carusel1::before {
+    left: 0;
+    top: 0;
+}
+
+.carusel1::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+

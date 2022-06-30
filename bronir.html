@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Restaurant Noisy River</title>
+		<!-- Reset -->
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/base.css" />
+		<!--Блоки -->
+		<link rel="stylesheet" href="./css/blocks/btn.css" />
+		<link rel="stylesheet" href="./css/blocks/header.css" />
+		<link rel="stylesheet" href="./css/blocks/home.css" />
+        <link rel="stylesheet" href="./css/blocks/afisha.css" />
+		<link rel="stylesheet" href="./css/blocks/footer.css" />
+		<!--Шрифты -->
+		<link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
+		<link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
+		
+		<link rel="icon" href="img/icon.ico.png" type="image/x-icon">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header-row">
+					<div class="header-logo">Noisy River</div>
+					<nav class="header-nav">
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="menu.html">Меню</a></li>
+							<li><a href="afisha.html">Афиша</a></li>
+							<li><a href="bronir.html">Бронирование</a></li>
+						</ul>
+					</nav>
+					<div class="header-login">
+						<a class="header-login-link" href="login.html">Войти</a>
+						<a href="register.php" class="btn">Регистрация</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+	
+
+
+
+         <div class="afisha">
+        <section>
+		       <div class="frame">
+                <h1>Бронирование</h1></div>
+		</section><br><br>
+
+    <style> 
+#mail {visibility: hidden;}
+#mail:checked ~ #popup form {visibility: visible;}
+#mail:checked ~ label {
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: 99;
+  color: rgba(0,0,0,0);
+  background: rgba(180,180,180,.9);
+  cursor: pointer;
+}
+#popup {
+  visibility: hidden;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: 100;
+}
+#popup form {
+  position: absolute;
+  top: 50%; left: 50%;
+  -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+  padding: .5% 1% 1%;
+  border: 1px solid rgb(100,100,100);
+  font-size: 100%;
+  font-weight: 600;
+  text-align: right;
+  text-shadow: -1px -1px #666;
+  color: rgb(240,240,240);
+  background: rgb(0,0,0) linear-gradient(rgb(0,0,0), rgb(170,170,170));
+}
+#popup div:nth-of-type(1) {padding-top: 3%;}
+#popup div:nth-last-of-type(1) {padding: 1% 0 4%;}
+#popup div:after {
+  content: attr(data-title);
+  display: block;
+  font-size: 70%;
+  font-weight: normal;
+  text-shadow: none;
+}
+#popup input {font-size: 90%;}
+#popup [type='submit'] {cursor: pointer; background-color: black; color: white; }
+#popup label:hover {
+  color: red;
+  cursor: pointer;
+}
+</style>
+
+<input type="checkbox" id="mail"/><label for="mail"><u>Заказать звонок для бронирования</u></label> 
+
+<div id="popup">
+<form method="post" action="mail.php">
+<label for="mail" title="Отменить">✕</label>
+<div data-title="Например, Мария Петровна">Ваше имя: <input type='text' name='name' required /></div>
+<div data-title="Например, 89270000000">Моб. телефон: <input type="tel" name='tel' required maxlength="11" value='8' pattern="8\d{10}"/></div>
+<input type='submit' value='Заказать'/>
+</form>
+</div>
+
+		<footer class="footer">
+		<div class="footer-nav">
+<div class="column-left">Контакты:
+<span>
+<h1 href="tel:>+78002012601"> Телефон: +7 (800) 201 26 01</h1>
+</span>
+<h2>Адрес: Набережная реки Фонтанки, 59 </h2>
+</div>
+            <div class="column-right">Noisy River Online</div>
+<div class="fa-site">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="https://vk.com/noisy.river" class="fa fa-vk"></a>
+<a href="https://t.me/noisy_river" class="fa fa-telegram"></a>
+</div>
+   </div>
+		</footer>
+		</div>
+	        </body>
+</html>
